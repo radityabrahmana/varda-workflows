@@ -12,7 +12,7 @@ Workflows and packs use semantic versioning: `MAJOR.MINOR.PATCH`.
   expected output or workflow behavior.
 
 Increment the `metadata.version` value of every changed workflow. Do not change
-the folder, `name`, or `mike-display-name` of a published workflow without an
+the folder, `name`, or `varda-display-name` of a published workflow without an
 explicit migration or alias in the consuming application.
 
 ## Pack Versions

@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "E-Discovery Tabular Review"
-  mike-type: "tabular"
-  mike-availability: "system"
+  varda-display-name: "E-Discovery Tabular Review"
+  varda-type: "tabular"
+  varda-availability: "system"
   practice: "Litigation"
   jurisdictions: "General"
 ---

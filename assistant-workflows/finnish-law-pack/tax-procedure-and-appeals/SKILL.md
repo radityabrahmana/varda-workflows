@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Tax Procedure and Appeals"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Tax Procedure and Appeals"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Tax Law"
   jurisdictions: "Finland"
 ---

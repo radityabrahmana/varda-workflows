@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Data Protection Assessment"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Data Protection Assessment"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Data Protection"
   jurisdictions: "Finland, European Union"
 ---

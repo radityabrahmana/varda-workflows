@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Wieslaw Mazur / MateMatic Solutions"
   language: "English"
-  mike-display-name: "Legal Syllogism"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Legal Syllogism"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Legal Analysis"
   jurisdictions: "General"
 ---

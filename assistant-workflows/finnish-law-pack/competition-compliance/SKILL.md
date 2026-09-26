@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Competition Compliance"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Competition Compliance"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Competition Law"
   jurisdictions: "Finland, European Union"
 ---

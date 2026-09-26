@@ -13,8 +13,8 @@ ROOT = Path(__file__).resolve().parent.parent
 FORMATS = {"text", "date", "monetary_amount", "percentage", "bulleted_list", "yes_no", "tag"}
 SKILL_KEYS = {"name", "description", "license", "compatibility", "metadata", "allowed-tools"}
 REQUIRED_METADATA_KEYS = {
-    "version", "author", "language", "mike-display-name", "mike-type",
-    "mike-availability", "practice", "jurisdictions",
+    "version", "author", "language", "varda-display-name", "varda-type",
+    "varda-availability", "practice", "jurisdictions",
 }
 PACK_KEYS = {
     "$schema", "id", "title", "description", "publisher", "license", "version",
@@ -116,19 +116,19 @@ for file in skill_files:
     if not all(isinstance(value, str) for value in metadata.values()):
         errors.append(f"{file}: metadata values must be strings")
 
-    if folder != display_slug(metadata.get("mike-display-name", "")):
-        errors.append(f"{file}: folder must match mike-display-name")
+    if folder != display_slug(metadata.get("varda-display-name", "")):
+        errors.append(f"{file}: folder must match varda-display-name")
     if not SEMVER_PATTERN.fullmatch(str(metadata.get("version", ""))):
         errors.append(f"{file}: version must use semantic versioning")
-    if metadata.get("mike-availability") not in {"system", "add-on"}:
-        errors.append(f"{file}: mike-availability must be system or add-on")
+    if metadata.get("varda-availability") not in {"system", "add-on"}:
+        errors.append(f"{file}: varda-availability must be system or add-on")
 
     expected_type = "assistant" if "assistant-workflows" in file.parts else "tabular"
-    if metadata.get("mike-type") != expected_type:
-        errors.append(f"{file}: mike-type must be {expected_type}")
+    if metadata.get("varda-type") != expected_type:
+        errors.append(f"{file}: varda-type must be {expected_type}")
 
-    if file.parent.parent.name.endswith("-pack") and metadata.get("mike-availability") != "add-on":
-        errors.append(f"{file}: workflows inside packs must use mike-availability add-on")
+    if file.parent.parent.name.endswith("-pack") and metadata.get("varda-availability") != "add-on":
+        errors.append(f"{file}: workflows inside packs must use varda-availability add-on")
 
     if expected_type == "tabular":
         if canonical_instructions not in text:

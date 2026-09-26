@@ -4,7 +4,7 @@ Describe the workflow or schema change and why it is needed.
 
 ## Checklist
 
-- [ ] Workflow folder, `name`, and `mike-display-name` slug match.
+- [ ] Workflow folder, `name`, and `varda-display-name` slug match.
 - [ ] Workflow or pack version was updated according to `VERSIONING.md`.
 - [ ] Instructions are lightweight and harness-neutral.
 - [ ] New or adapted content complies with `PROVENANCE.md`.

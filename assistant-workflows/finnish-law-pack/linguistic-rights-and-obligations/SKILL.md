@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Linguistic Rights and Obligations"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Linguistic Rights and Obligations"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Language Rights"
   jurisdictions: "Finland"
 ---

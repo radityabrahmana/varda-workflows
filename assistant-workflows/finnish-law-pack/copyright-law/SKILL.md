@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Copyright Law"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Copyright Law"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Intellectual Property"
   jurisdictions: "Finland"
 ---

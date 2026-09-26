@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "Shareholder Agreement Review"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "Shareholder Agreement Review"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "Corporate"
   jurisdictions: "General"
 ---

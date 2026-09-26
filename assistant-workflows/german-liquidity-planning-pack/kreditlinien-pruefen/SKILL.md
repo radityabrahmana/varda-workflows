@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Klotzkette"
   language: "German"
-  mike-display-name: "Kreditlinien Pruefen"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Kreditlinien Pruefen"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Insolvency and Restructuring"
   jurisdictions: "Germany"
 ---

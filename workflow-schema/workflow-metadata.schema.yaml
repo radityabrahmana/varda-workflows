@@ -1,6 +1,6 @@
 "$schema": "https://json-schema.org/draft/2020-12/schema"
-title: "Mike workflow SKILL.md frontmatter"
-description: "The Agent Skills frontmatter format with Mike workflow metadata."
+title: "Varda workflow SKILL.md frontmatter"
+description: "The Agent Skills frontmatter format with Varda workflow metadata."
 type: object
 additionalProperties: false
 required:
@@ -31,9 +31,9 @@ properties:
       - version
       - author
       - language
-      - mike-display-name
-      - mike-type
-      - mike-availability
+      - varda-display-name
+      - varda-type
+      - varda-availability
       - practice
       - jurisdictions
     properties:
@@ -47,15 +47,15 @@ properties:
       language:
         type: string
         minLength: 1
-      mike-display-name:
+      varda-display-name:
         type: string
         minLength: 1
-      mike-type:
+      varda-type:
         enum:
           - assistant
           - tabular
-      mike-availability:
-        description: Whether the workflow ships with Mike or is installed as an add-on.
+      varda-availability:
+        description: Whether the workflow ships with Varda or is installed as an add-on.
         enum:
           - system
           - add-on

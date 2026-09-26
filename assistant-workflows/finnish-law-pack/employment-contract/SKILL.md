@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Employment Contract"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Employment Contract"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Employment Law"
   jurisdictions: "Finland"
 ---

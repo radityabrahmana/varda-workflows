@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Value Added Tax"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Value Added Tax"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Tax Law"
   jurisdictions: "Finland"
 ---

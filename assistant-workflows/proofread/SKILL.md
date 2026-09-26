@@ -6,9 +6,9 @@ metadata:
   version: "1.1.0"
   author: "Anna Guo"
   language: "English"
-  mike-display-name: "Proofread"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "Proofread"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "General Transactions"
   jurisdictions: "General"
 ---

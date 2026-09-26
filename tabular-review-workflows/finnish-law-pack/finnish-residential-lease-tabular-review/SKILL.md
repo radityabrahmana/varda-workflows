@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Finnish Residential Lease Tabular Review"
-  mike-type: "tabular"
-  mike-availability: "add-on"
+  varda-display-name: "Finnish Residential Lease Tabular Review"
+  varda-type: "tabular"
+  varda-availability: "add-on"
   practice: "Real Estate and Housing"
   jurisdictions: "Finland"
 ---

@@ -1,7 +1,7 @@
-# Mike Legal Workflows
+# Varda Legal Workflows
 
-Public workflow definitions for Mike. We are open sourcing the workflows
-available in Mike so that people can contribute improvements and use them with
+Public workflow definitions for Varda. We are open sourcing the workflows
+available in Varda so that people can contribute improvements and use them with
 the agent harness of their choice. The workflows follow the
 [`SKILL.md` Agent Skills specification](https://agentskills.io/specification)
 used by popular agent harnesses, making them straightforward to adapt and reuse.
@@ -18,7 +18,7 @@ additional directory nesting.
 ## Structure
 
 ```text
-mike-legal-workflows/
+varda-legal-workflows/
   assistant-workflows/
     <workflow-id>/
       SKILL.md
@@ -65,21 +65,21 @@ workflow remains portable across compatible environments.
 
 ## System and Add-on Workflows
 
-Every `SKILL.md` declares a `mike-availability` value inside its YAML
+Every `SKILL.md` declares a `varda-availability` value inside its YAML
 frontmatter metadata:
 
 ```yaml
 metadata:
-  mike-availability: "system"
+  varda-availability: "system"
 ```
 
-Use `system` for trusted workflows that ship with Mike and appear as
+Use `system` for trusted workflows that ship with Varda and appear as
 non-editable system workflows. Use `add-on` for workflows that users can
 optionally install or copy into their own workspace:
 
 ```yaml
 metadata:
-  mike-availability: "add-on"
+  varda-availability: "add-on"
 ```
 
 This explicit metadata is the source of truth. Folder names should describe
@@ -94,7 +94,7 @@ instructions in the Markdown body.
 
 Assistant workflows can prompt users for additional information or document
 uploads when needed. For example, a drafting workflow can ask the user to
-provide a template or precedent before continuing. Mike supports these
+provide a template or precedent before continuing. Varda supports these
 interactive requests as part of the workflow.
 
 ### Tabular Review Workflows
@@ -103,16 +103,16 @@ Tabular review workflows contain metadata in `SKILL.md` YAML frontmatter,
 workflow-level instructions in the Markdown body, and column definitions in
 `table-columns.yaml`.
 
-Mike does not currently use the instructions in a tabular review workflow's
+Varda does not currently use the instructions in a tabular review workflow's
 `SKILL.md` when running the workflow. Users trigger tabular review runs directly,
-and Mike applies fixed system prompts together with the workflow's
+and Varda applies fixed system prompts together with the workflow's
 `table-columns.yaml`. The results are rendered as an interactive table in the
-Mike application UI rather than having an agent generate the presentation on
+Varda application UI rather than having an agent generate the presentation on
 the fly.
 
 The `SKILL.md` is included to describe the workflow and ensure that it remains
 portable to other agent harnesses that use skill-based instructions. Outside
-Mike, the skill instructs the agent to produce an exportable Excel file and to
+Varda, the skill instructs the agent to produce an exportable Excel file and to
 fall back to a Markdown table when Excel output is unavailable.
 
 The canonical baseline is maintained in
@@ -125,25 +125,25 @@ the canonical baseline, regenerate the tabular skill instructions with:
 python3 workflow-schema/generate-tabular-skills.py
 ```
 
-The `mike-type` metadata field must agree with the top-level collection:
+The `varda-type` metadata field must agree with the top-level collection:
 
 ```yaml
 metadata:
-  mike-type: "assistant"
+  varda-type: "assistant"
 ```
 
 or:
 
 ```yaml
 metadata:
-  mike-type: "tabular"
+  varda-type: "tabular"
 ```
 
 ## Packs
 
 A pack is a named bundle of add-on workflows of the same type. Pack folders
 live in the relevant workflow collection and must end in `-pack` so they are
-easy for both people and Mike to identify.
+easy for both people and Varda to identify.
 
 ```text
 assistant-workflows/
@@ -163,7 +163,7 @@ id: "commercial-drafting"
 title: "Commercial Drafting"
 description: "Add-on workflows for drafting commercial agreements."
 publisher:
-  name: "Mike"
+  name: "Varda"
 license: "MIT"
 version: "1.0.0"
 practice: "General Transactions"
@@ -177,7 +177,7 @@ Packs may optionally declare a `practice`, a `jurisdiction`, or both to
 describe the bundle. These values are non-empty strings when present.
 
 Each listed directory must exist directly inside the pack folder, and each
-workflow in a pack must declare `mike-availability: "add-on"` inside its
+workflow in a pack must declare `varda-availability: "add-on"` inside its
 `metadata`. Packs should not contain system workflows. Installing a pack
 installs all workflows listed in its manifest.
 
@@ -197,7 +197,7 @@ frontmatter uses the standard Agent Skills fields. `name` and `description` are
 required by the open specification; `license` and `metadata` are also required
 for workflows in this repository.
 
-Only fields whose meaning is specific to Mike use the `mike-` prefix. General
+Only fields whose meaning is specific to Varda use the `varda-` prefix. General
 fields such as `version`, `author`, `language`, `practice`, and `jurisdictions`
 remain unprefixed. Metadata values are strings for compatibility with the Agent
 Skills specification. Use the author or publishing organisation's name for
@@ -212,20 +212,20 @@ metadata:
   version: "1.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "NDA Review"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "NDA Review"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "General Transactions"
   jurisdictions: "General"
 ---
 ```
 
 The workflow folder and the `name` field must both match the lowercase,
-hyphenated form of `metadata.mike-display-name`. For example, a Mike display
+hyphenated form of `metadata.varda-display-name`. For example, a Varda display
 name of `Credit Agreement Review` uses the folder
 `credit-agreement-review/` and `name: "credit-agreement-review"`. Keep these
 identifiers stable once published. Because the identifier is derived from the
-display name, treat `mike-display-name` as immutable after publication. A
+display name, treat `varda-display-name` as immutable after publication. A
 breaking rename requires an explicit migration or alias in the consuming
 application.
 

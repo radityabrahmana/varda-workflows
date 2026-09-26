@@ -6,9 +6,9 @@ metadata:
   version: "2.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "Issues List Draft"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "Issues List Draft"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "General Transactions"
   jurisdictions: "General"
 ---

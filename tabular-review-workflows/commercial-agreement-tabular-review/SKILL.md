@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "Commercial Agreement Tabular Review"
-  mike-type: "tabular"
-  mike-availability: "system"
+  varda-display-name: "Commercial Agreement Tabular Review"
+  varda-type: "tabular"
+  varda-availability: "system"
   practice: "General Transactions"
   jurisdictions: "General"
 ---

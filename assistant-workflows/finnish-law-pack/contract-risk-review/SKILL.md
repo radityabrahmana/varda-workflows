@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Contract Risk Review"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Contract Risk Review"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Contract Law"
   jurisdictions: "Finland"
 ---

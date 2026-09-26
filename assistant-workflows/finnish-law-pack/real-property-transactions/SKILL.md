@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Real Property Transactions"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Real Property Transactions"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Real Estate and Housing"
   jurisdictions: "Finland"
 ---

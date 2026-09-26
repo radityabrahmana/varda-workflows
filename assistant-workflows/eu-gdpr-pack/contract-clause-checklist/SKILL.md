@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Wieslaw Mazur / MateMatic Solutions"
   language: "English"
-  mike-display-name: "Contract Clause Checklist"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Contract Clause Checklist"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "General Transactions"
   jurisdictions: "General"
 ---

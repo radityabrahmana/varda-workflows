@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Polina Chtchelok"
   language: "English"
-  mike-display-name: "BPO Agreement Review"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "BPO Agreement Review"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "Commercial"
   jurisdictions: "General"
 ---

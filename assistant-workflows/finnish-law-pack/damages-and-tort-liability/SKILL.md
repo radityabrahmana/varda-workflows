@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Damages and Tort Liability"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Damages and Tort Liability"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Dispute Resolution"
   jurisdictions: "Finland"
 ---

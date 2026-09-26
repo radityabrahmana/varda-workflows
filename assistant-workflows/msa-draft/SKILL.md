@@ -13,9 +13,9 @@ metadata:
   version: 1.0.0
   author: Victor Wang
   language: English
-  mike-display-name: MSA Draft
-  mike-type: assistant
-  mike-availability: system
+  varda-display-name: MSA Draft
+  varda-type: assistant
+  varda-availability: system
   practice: Commercial
   jurisdictions: General
 ---
