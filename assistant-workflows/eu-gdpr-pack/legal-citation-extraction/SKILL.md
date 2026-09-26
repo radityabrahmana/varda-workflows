@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Wieslaw Mazur / MateMatic Solutions"
   language: "English"
-  mike-display-name: "Legal Citation Extraction"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Legal Citation Extraction"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Legal Research"
   jurisdictions: "European Union, General"
 ---

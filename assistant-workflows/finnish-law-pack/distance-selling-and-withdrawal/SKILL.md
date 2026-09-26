@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Distance Selling and Withdrawal"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Distance Selling and Withdrawal"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Consumer Law"
   jurisdictions: "Finland"
 ---

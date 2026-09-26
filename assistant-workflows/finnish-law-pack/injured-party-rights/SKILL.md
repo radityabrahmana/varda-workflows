@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Injured Party Rights"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Injured Party Rights"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Criminal Procedure"
   jurisdictions: "Finland"
 ---

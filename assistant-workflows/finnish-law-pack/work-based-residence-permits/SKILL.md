@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Work-Based Residence Permits"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Work-Based Residence Permits"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Immigration Law"
   jurisdictions: "Finland"
 ---

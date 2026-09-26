@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "NDA Review"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "NDA Review"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "General Transactions"
   jurisdictions: "General"
 ---

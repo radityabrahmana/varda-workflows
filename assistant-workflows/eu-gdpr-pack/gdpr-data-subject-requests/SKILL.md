@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Wieslaw Mazur / MateMatic Solutions"
   language: "English"
-  mike-display-name: "GDPR Data Subject Requests"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "GDPR Data Subject Requests"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Data Protection"
   jurisdictions: "European Union"
 ---

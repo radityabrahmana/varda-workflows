@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Criminal Investigation and Coercive Measures"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Criminal Investigation and Coercive Measures"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Criminal Procedure"
   jurisdictions: "Finland"
 ---

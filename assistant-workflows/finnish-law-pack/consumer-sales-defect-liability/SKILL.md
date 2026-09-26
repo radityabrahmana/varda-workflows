@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Consumer Sales Defect Liability"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Consumer Sales Defect Liability"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Consumer Law"
   jurisdictions: "Finland"
 ---

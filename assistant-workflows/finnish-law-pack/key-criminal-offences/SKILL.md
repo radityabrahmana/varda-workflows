@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Key Criminal Offences"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Key Criminal Offences"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Criminal Law"
   jurisdictions: "Finland"
 ---

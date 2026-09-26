@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Wieslaw Mazur / MateMatic Solutions"
   language: "English"
-  mike-display-name: "GDPR DPIA"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "GDPR DPIA"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Data Protection"
   jurisdictions: "European Union"
 ---

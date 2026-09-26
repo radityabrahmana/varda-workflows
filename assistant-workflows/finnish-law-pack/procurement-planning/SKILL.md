@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Procurement Planning"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Procurement Planning"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Public Procurement"
   jurisdictions: "Finland"
 ---

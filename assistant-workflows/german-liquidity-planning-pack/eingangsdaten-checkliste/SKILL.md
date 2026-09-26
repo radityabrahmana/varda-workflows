@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Klotzkette"
   language: "German"
-  mike-display-name: "Eingangsdaten Checkliste"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Eingangsdaten Checkliste"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Insolvency and Restructuring"
   jurisdictions: "Germany"
 ---

@@ -6,9 +6,9 @@ metadata:
   version: 1.0.0
   author: Victor Wang
   language: English
-  mike-display-name: Design Partner Review
-  mike-type: assistant
-  mike-availability: system
+  varda-display-name: Design Partner Review
+  varda-type: assistant
+  varda-availability: system
   practice: Commercial
   jurisdictions: General
 ---

@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Document Table Comparison"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Document Table Comparison"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "General Practice"
   jurisdictions: "Finland"
 ---

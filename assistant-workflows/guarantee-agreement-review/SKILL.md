@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "Guarantee Agreement Review"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "Guarantee Agreement Review"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "Finance"
   jurisdictions: "General"
 ---

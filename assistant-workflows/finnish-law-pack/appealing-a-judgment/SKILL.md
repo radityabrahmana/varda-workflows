@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Appealing a Judgment"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Appealing a Judgment"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Dispute Resolution"
   jurisdictions: "Finland"
 ---

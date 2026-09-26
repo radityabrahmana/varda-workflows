@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "MateMatic Solutions"
   language: "Polish"
-  mike-display-name: "Polish Contract Tabular Review"
-  mike-type: "tabular"
-  mike-availability: "add-on"
+  varda-display-name: "Polish Contract Tabular Review"
+  varda-type: "tabular"
+  varda-availability: "add-on"
   practice: "General Transactions"
   jurisdictions: "Poland"
 ---

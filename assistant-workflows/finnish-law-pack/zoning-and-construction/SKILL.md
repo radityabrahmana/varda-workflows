@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Zoning and Construction"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Zoning and Construction"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Environmental and Planning Law"
   jurisdictions: "Finland"
 ---

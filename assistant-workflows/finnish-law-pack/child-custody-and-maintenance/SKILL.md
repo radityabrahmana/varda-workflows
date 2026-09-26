@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Child Custody and Maintenance"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Child Custody and Maintenance"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Family and Inheritance Law"
   jurisdictions: "Finland"
 ---

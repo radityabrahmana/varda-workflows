@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Consultation Statement Drafting"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Consultation Statement Drafting"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Legal Opinions"
   jurisdictions: "Finland"
 ---

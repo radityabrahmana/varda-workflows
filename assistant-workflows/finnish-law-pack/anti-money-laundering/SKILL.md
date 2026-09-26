@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Anti-Money Laundering"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Anti-Money Laundering"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Banking and Finance"
   jurisdictions: "Finland, European Union"
 ---

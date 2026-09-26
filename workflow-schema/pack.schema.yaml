@@ -1,5 +1,5 @@
 "$schema": "https://json-schema.org/draft/2020-12/schema"
-title: "Mike workflow pack metadata"
+title: "Varda workflow pack metadata"
 type: object
 additionalProperties: false
 required:

@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Klotzkette"
   language: "German"
-  mike-display-name: "Ausgabengruppen Systematik"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Ausgabengruppen Systematik"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Insolvency and Restructuring"
   jurisdictions: "Germany"
 ---

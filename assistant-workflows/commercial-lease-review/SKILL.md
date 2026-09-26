@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Open Legal Products"
   language: "English"
-  mike-display-name: "Commercial Lease Review"
-  mike-type: "assistant"
-  mike-availability: "system"
+  varda-display-name: "Commercial Lease Review"
+  varda-type: "assistant"
+  varda-availability: "system"
   practice: "Real Estate"
   jurisdictions: "General"
 ---

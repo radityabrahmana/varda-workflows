@@ -6,9 +6,9 @@ metadata:
   version: "1.0.0"
   author: "Aku Nikkola"
   language: "Finnish"
-  mike-display-name: "Evidence and Burden of Proof"
-  mike-type: "assistant"
-  mike-availability: "add-on"
+  varda-display-name: "Evidence and Burden of Proof"
+  varda-type: "assistant"
+  varda-availability: "add-on"
   practice: "Dispute Resolution"
   jurisdictions: "Finland"
 ---
